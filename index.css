@@ -1,0 +1,154 @@
+.image-container {
+  position: absolute;
+  display: flex;
+  /*justify-content: center; /* horizontally center the image */
+  align-items: center;
+  /* vertically center the image */
+  height: 100vh;
+  /* adjust the height of the container */
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  /*justify-content: center; /* horizontally center the image */
+  align-items: center;
+  /* vertically center the image */
+  height: 25px;
+  /* adjust the height of the container */
+}
+
+.video-container {
+  /*justify-content: center;*/
+  align-items: center;
+  width: 650px;
+  /* adjust the height of the container */
+}
+
+#textBox1 {
+  position: absolute;
+  top: 630px;
+  /* Adjust the top position */
+  left: 980px;
+  /* Adjust the left position */
+  white-space: nowrap;
+  color: #285847;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+
+#textBox2 {
+  position: absolute;
+  top: 630px;
+  /* Adjust the top position */
+  left: 970px;
+  /* Adjust the left position */
+  color: #6d6d6d;
+  font-family: "Nunito Sans", sans-serif;
+  width: 400px;
+  /* Set the desired width */
+  text-align: left;
+  line-height: 1.4;
+  /* Set the desired line height */
+  padding: 10px;
+  /* Add padding to the text box */
+}
+
+.bar_30sec {
+  position: absolute;
+  display: none;
+  background-color: #bb8c32;
+  top: 300px;
+  left: 980px;
+  height: 4px;
+  width: 124px;
+  margin-top: -15px;
+  content: "";
+}
+
+.bar_2min {
+  position: absolute;
+  display: none;
+  background-color: #bb8c32;
+  top: 300px;
+  left: 1160px;
+  height: 4px;
+  width: 109px;
+  margin-top: -15px;
+  content: "";
+}
+
+.bar_powerpoint {
+  position: absolute;
+  display: none;
+  background-color: #bb8c32;
+  top: 300px;
+  left: 1335px;
+  height: 4px;
+  width: 127px;
+  margin-top: -15px;
+  content: "";
+}
+
+.trigger {
+  position: absolute;
+  cursor: pointer;
+}
+
+#trigger1 {
+  top: 250px;
+  left: 970px;
+  color: #285847;
+  font-family: "Nunito Sans", sans-serif;
+  width: 400px;
+  /* Set the desired width */
+  text-align: left;
+  line-height: 1.4;
+  /* Set the desired line height */
+  padding: 10px;
+  /* Add padding to the text box */
+}
+
+#trigger2 {
+  top: 250px;
+  left: 1150px;
+  color: #285847;
+  font-family: "Nunito Sans", sans-serif;
+  width: 400px;
+  /* Set the desired width */
+  text-align: left;
+  line-height: 1.4;
+  /* Set the desired line height */
+  padding: 10px;
+  /* Add padding to the text box */
+}
+
+#trigger3 {
+  top: 250px;
+  left: 1325px;
+  color: #285847;
+  font-family: "Nunito Sans", sans-serif;
+  width: 400px;
+  /* Set the desired width */
+  text-align: left;
+  line-height: 1.4;
+  /* Set the desired line height */
+  padding: 10px;
+  /* Add padding to the text box */
+}
+
+.icon-wrapper {
+  position: absolute;
+}
+
+.bar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+
+.active {
+  display: block;
+}
